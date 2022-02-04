@@ -73,3 +73,5 @@ async def delete_service(_, message):
             return await message.delete()
     except Exception:
         pass
+
+    # more codes will be done
